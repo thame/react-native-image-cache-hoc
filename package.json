@@ -1,6 +1,6 @@
 {
-  "name": "react-native-image-cache-hoc",
-  "version": "2.0.0",
+  "name": "react-native-blob-cache",
+  "version": "1.0.0",
   "description": "React Native Higher Order Component that adds advanced caching functionality to the react native Image component.",
   "main": "index.js",
   "scripts": {
@@ -8,27 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/billmalarky/react-native-image-cache-hoc.git"
+    "url": "git+https://github.com/thame/react-native-image-cache-hoc.git"
   },
   "keywords": [
     "react",
     "react-native",
-    "higher-order-component",
-    "hoc",
     "image",
-    "caching",
-    "image-component",
-    "component",
-    "react-component",
-    "media",
-    "react-native-component"
+    "caching"
   ],
-  "author": "Reid Mayo",
+  "author": "Tom Fadial",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/billmalarky/react-native-image-cache-hoc/issues"
+    "url": "https://github.com/thame/react-native-image-cache-hoc/issues"
   },
-  "homepage": "https://github.com/billmalarky/react-native-image-cache-hoc#readme",
+  "homepage": "https://github.com/thame/react-native-image-cache-hoc#readme",
   "devDependencies": {
     "babel-eslint": "^8.0.1",
     "coveralls": "^3.0.0",
@@ -51,7 +44,7 @@
     "crypto-js": "^3.1.9-1",
     "path": "^0.12.7",
     "prop-types": "^15.6.0",
-    "rn-fetch-blob": "0.10.13",
+    "react-native-blob-courier": "3.0.0",
     "react-native-uuid": "^1.4.9",
     "traverse": "^0.6.6",
     "url-parse": "^1.2.0",
